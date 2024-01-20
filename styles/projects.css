@@ -12,7 +12,7 @@
     border-radius: 16px;
     background-color: #E8D8FF;
     display: flex;
-    margin: 10vw 0;
+    margin: 10vh 0;
     box-shadow: 12px 12px 16px #D7CCE5, -12px -12px 16px #F2EAFF;
   }
   .project-image {
@@ -26,19 +26,25 @@
 
 .project-page {
   max-width: 100%;
-  padding: 15vw 5vw;
+  padding: 5vh 5vw 15vh;
   color: #000;
   background-color: #F2EAFF;
 }
-.project-page p {
+/* .project-page p {
   padding: 0 10vw;
 }
 .project-page h1 {
   padding: 0 10vw;
 }
-.project-page hr {
+.project-page h2 {
   padding: 0 10vw;
 }
+.project-page h3 {
+  padding: 0 10vw;
+}
+.project-page hr {
+  padding: 0 10vw;
+} */
 .project-page ol {
   padding: 0 15vw;
 }
@@ -52,12 +58,33 @@
   margin-bottom: 2vh;
 }
 figure {
-    margin: 10vh 0;
+    margin-bottom: 5vh;
 }
 figcaption {
   opacity: 0.6;
   text-align: center;
 }
+.cover {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  padding-top: 20vh;
+  background: linear-gradient(#76DEFF, #7BC3FF);
+}
+.cover img {
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: rgba(255,255,255,0.5);
+  object-fit: cover;
+  box-sizing: border-box;
+  width: 126vh;
+
+}
+.cover-text {
+  padding: 20vh 10vw 5vh 5vw;
+  color: #000;
+}
+
 @media only screen and (max-width: 767px) {
   .container-custom {
     flex-direction: column;
