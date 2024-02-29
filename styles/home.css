@@ -8,7 +8,7 @@
 #home {
   align-content: center;
   display: grid;
-  grid-template-columns: 70% 30%;
+  grid-template-columns: 60% 40%;
   background-color: #F2EAFF;
   color: #000;
   justify-content: left;
@@ -17,6 +17,7 @@
   border-radius: 50%;
   height: 164px;
   width: 164px;
+  box-shadow: 6px 6px 16px #D7CCE5;
 }
 .intro {
   display: flex;
@@ -39,7 +40,10 @@
 .invisible-break {
   display: none;
 }
-@media screen and (max-width: 799px) {
+.project-textbox h2 {
+  margin: 5vh 0;
+}
+@media screen and (max-width: 899px) {
   #home {
     grid-template-columns: 80% 20%;
   }

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Will - Product Designer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="https://willckyle.github.io/" />
     <link rel="manifest" href="manifest.json">
 
@@ -10,7 +10,9 @@
     <link rel="apple-touch-icon" size="192x192" href="img/favicon192.png">
     <link rel="apple-touch-icon" size="512x512" href="img/favicon512.png">
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -33,7 +35,9 @@
           <li class="navigation-item">
             <a class="navigation-link project-link" href="#projects">Projects</a>
           </li>
-          <a href="#" class="wk"><img src="img/WK.png" alt="WK"></a>
+          <li>
+            <a href="#" class="wk"><img src="img/WK.png" alt="WK Logo"></a>
+          </li>
           <li class="navigation-item">
             <a class="navigation-link contact-link" href="#contact">Contact</a>
           </li>
@@ -47,7 +51,7 @@
     <div class="block" id="home">
 
       <div class="intro">
-        <img class="will" src="img/Will.jpg" alt="Will"> </img>
+        <img class="will" src="img/Will.jpg" alt="Will's portrait."> </img>
         <div class="home-text">
           <h1>Hi! I'm Will.</h1>
           <p>I'm a product design leader who specializes in product strategy, creative direction and accessible innovations.</p>
@@ -55,8 +59,8 @@
       </div>
 
       <picture class="chauburji">
-        <source srcset="img/chauburjiTowerFC.png 1x" media="(min-width: 800px)">
-        <img src="img/chauburjiTowerThinFCT.png" alt="Chauburji tower"> </img>
+        <source srcset="img/chauburjiTowerFC.png 1x" media="(min-width: 900px)">
+        <img src="img/chauburjiTowerThinFCT.png" alt="An illustration of a tower with geometric decoration."> </img>
       </picture>
 
     </div>
@@ -111,12 +115,15 @@
           <p>Feel free to get in touch to discuss opportunities, potential collaboration, or just to chat!</p><br>
 
           <div class="contact-box contact-box-two">
-          <div class="email-box" >
-            <input type="text" class="textBox" name="Email" id="Email" value="williamofnewe@gmail.com" onclick="this.focus();this.select();myFunction()" readonly="readonly">
-            <div class="copyIcon" onclick="myFunction()"><img src="img/copyIcon.png"></img></div>
-            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target=”_blank” class="emailButton"><img src="img/gmail.png" alt="Gmail"></a>
-            <a href="https://outlook.live.com/mail/0/inbox" target=”_blank” class="emailButton"><img src="img/outlook.png" alt="Outlook"></a>
-          </div>
+            <label> 
+              <span>Email:</span>
+              <div class="email-box" >
+                <input type="text" class="textBox" name="Email" id="Email" value="williamofnewe@gmail.com" onclick="this.focus();this.select();myFunction()" readonly="readonly">
+                <div class="copyIcon" onclick="myFunction()"><img src="img/copyIcon.png" alt="Copy email address."></img></div>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target=”_blank” class="emailButton" alt="Open in Gmail."><img src="img/gmail.png" alt="Gmail"></a>
+                <a href="https://outlook.live.com/mail/0/inbox" target=”_blank” class="emailButton"><img src="img/outlook.png" alt="Open in Outlook"></a>
+              </div>
+            </label>
           </div>
 
 
