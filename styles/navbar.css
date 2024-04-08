@@ -21,6 +21,7 @@ nav {
   color: #000;
   opacity: 0.6;
   padding: 0 40px;
+  /* border-left: 1px solid rgba(0, 0, 0, 0.4); */
   transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out;
